@@ -10,7 +10,7 @@ var T = new Twit(APIkeys);
 
 retweet();
 
-setInterval(retweet, 1000*20);
+setInterval(retweet, 1000*60*15);
 
 function retweet() {
     var randNum = Math.floor(Math.random() * (14 - 0))  + 1;
